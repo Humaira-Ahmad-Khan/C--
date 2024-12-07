@@ -20,7 +20,7 @@ public:
         studentobject.Gender = "Female";
         studentobject.RollNumber = 387;
         cout <<"Student Name is "<<studentobject.Name<<endl;
-        cout <<"Student Age is "<<studentobject.Age<<endl;
+        cout <<"Student Age is "<<studentobject.Age<< endl;
         cout <<"Student Gender is "<<studentobject.Gender<< endl;
         cout <<"Student RollNumber is "<<studentobject.RollNumber<<endl;
         _getch();
