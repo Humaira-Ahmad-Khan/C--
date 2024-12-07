@@ -1,12 +1,12 @@
-//-> Constants
-#include <iostream>
-using namespace std;
+// //-> Constants
+// #include <iostream>
+// using namespace std;
 
-int main(){
-    const float PI =  3.14 ;
-    cout<<"PI = "<<PI<<endl;
-    return 0;
-}
+// int main(){
+//     const float PI =  3.14 ;
+//     cout<<"PI = "<<PI<<endl;
+//     return 0;
+// }
 
 //->Typecasting
 
