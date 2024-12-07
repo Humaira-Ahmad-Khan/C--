@@ -20,21 +20,21 @@
 // }
 
 //->Char and int = Integer (Improve)
-// #include <iostream>
-// using namespace std;
-
-// int main(){
-//     cout<<"Value  = "<<('A' - 0)<<endl;//output->66(A = '65')
-//     cout<<"Value  = "<<('B' - 0)<<endl;//output->67(B = '66')
-//     cout<<"Value  = "<<('A')
-//     return 0;
-// }
-
-//Explicit
 #include <iostream>
 using namespace std;
 
 int main(){
-    cout<<"Value  = "<<(int)('A')
+    cout<<"Value  = "<<('A' - 0)<<endl;//output->66(A = '65')
+    cout<<"Value  = "<<('B' - 0)<<endl;//output->67(B = '66')
+    cout<<"Value  = "<<('A')
     return 0;
 }
+
+//Explicit
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     cout<<"Value  = "<<(int)('A')
+//     return 0;
+// }
