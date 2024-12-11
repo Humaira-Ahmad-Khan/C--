@@ -1,16 +1,31 @@
+// #include <iostream>
+// using namespace std;
+
+// class MyClass{
+//     public:
+//     void myMethod();
+// };
+//   void MyClass::myMethod(){
+//         cout<<"Hello My Dear!";
+//     }
+
+// int main(){
+//     MyClass myObj;
+//     myObj.myMethod();
+//     return 0;
+// }
 #include <iostream>
 using namespace std;
-
-class MyClass{
+class Car {
     public:
-    void myMethod();
+    int speed(int maxSpeed);
 };
-  void MyClass::myMethod(){
-        cout<<"Hello My Dear!";
-    }
 
+int Car::speed(int maxSpeed){
+    return maxSpeed;
+}
 int main(){
-    MyClass myObj;
-    myObj.myMethod();
+    Car myObj;
+    cout<<"Max Speed = "<<myObj.speed(200)<<"Km/h";
     return 0;
 }
